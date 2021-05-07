@@ -37,5 +37,5 @@ also when you want to exit the video stream you can press the esc key.
             img_name = "opencv_frame_{}.jpg".format(img_counter)
             cv2.imwrite(img_name, frame)
             print("{} written!".format(img_name))
-            img_counter += 1  ```
-            
+            img_counter += 1  
+```
