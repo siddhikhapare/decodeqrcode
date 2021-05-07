@@ -27,7 +27,7 @@ also when you want to exit the video stream you can press the esc key.
             break
         cv2.imshow("test", frame)
 
-      ```  k = cv2.waitKey(1)
+        k = cv2.waitKey(1)
         if k == 27:
             # ESC pressed
             print("Escape hit, closing...")
